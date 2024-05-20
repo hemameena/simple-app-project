@@ -1,2 +1,0 @@
-def basedir():
-    return None
