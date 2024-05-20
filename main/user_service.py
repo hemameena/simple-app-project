@@ -1,5 +1,5 @@
 # services.py
-from app.main.user import db, Todo
+from main.user import db, Todo
 
 def add_task(content):
     new_task = Todo(content=content)

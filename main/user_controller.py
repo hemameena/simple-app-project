@@ -1,7 +1,7 @@
 # app.py
 from flask import Flask, render_template, request, redirect
-from user import db, Todo
-import user_service as services
+from main.user import db
+import main.user_service as services
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Hema098@localhost/dbname'
